@@ -12,6 +12,18 @@
         android:theme="@style/Theme.Mobileminiproject"
         tools:targetApi="31">
         <activity
+            android:name=".AdminBookingAll"
+            android:exported="false" />
+        <activity
+            android:name=".AdminShowVanAll"
+            android:exported="false" />
+        <activity
+            android:name=".AdminShowcarAll"
+            android:exported="false" />
+        <activity
+            android:name=".UserShowCar"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
